@@ -1,0 +1,45 @@
+@import "@/assets/cssReset/reset.scss";
+@import "@/assets/color.scss";
+
+@font-face {
+  font-family: 'Gogol';
+  src: url("@/assets/fonts/gogol/gogol_regular.otf");
+}
+
+.container {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+h1.slide__title {
+  font-size: clamp(34px, 10vw, 60px);
+}
+
+.button_bordered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 38px;
+  border: 1px solid $button-border;
+  transition: 0.3s;
+  cursor: pointer;
+
+  span {
+    color: $black;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 171.875%;
+    transition: 0.3s;
+  }
+
+  &:hover {
+    background: $button-border;
+
+    span {
+      color: $white;
+    }
+  }
+}
