@@ -1,0 +1,44 @@
+@import "@/assets/color.scss";
+
+.button_bordered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 31px 38px;
+  border: 1px solid $button-border;
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  width: max-content;
+
+  span {
+    color: $black;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 137.5%;
+    transition: 0.3s;
+    padding-right: 30px;
+  }
+
+  img {
+    position: relative;
+    width: max-content;
+    object-fit: cover;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  &:hover {
+    background: $button-border;
+
+    span {
+      color: $white;
+    }
+
+    img {
+      filter: invert(100%);
+    }
+  }
+}
