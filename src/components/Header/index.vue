@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <div class="header__ container">
+    <div class="header__ container start">
       <div class="header__left">
         <div class="header__logo">
           <img alt="logo" class="logo" src="@/assets/logo.svg"/>
@@ -17,7 +17,7 @@
             <img src="@/assets/icons/icon-telephone.svg" />
             <span>8 800 300 55 00</span>
           </div>
-          <div class="header__but button_bordered">
+          <div class="header__but button_bordered header-button">
             <span>Заказать звонок</span>
           </div>
         </div>
