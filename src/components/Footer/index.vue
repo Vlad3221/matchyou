@@ -37,6 +37,14 @@
             />
           </li>
         </ul>
+        <div class="footer__block-message">
+          <RouterLink to="/" class="footer__block-message_wp">
+            <img src="@/assets/icons/messagers/wp.png" alt="wp">
+          </RouterLink>
+          <RouterLink to="/" class="footer__block-message_tg">
+            <img src="@/assets/icons/messagers/tg.png" alt="tg">
+          </RouterLink>
+        </div>
       </div>
     </div>
   </div>
