@@ -72,24 +72,6 @@
         justify-content: center;
         margin-left: 3px;
         height: 94px;
-
-        .header__telephone {
-          display: flex;
-          align-items: center;
-          img {
-            object-fit: cover;
-            pointer-events: none;
-            user-select: none;
-          }
-
-          span {
-            line-height: 5;
-            padding: 0 22px;
-            height: 100%;
-            color: $text_default;
-            font-size: clamp(8px, 2rem, 22px);
-          }
-        }
       }
     }
   }

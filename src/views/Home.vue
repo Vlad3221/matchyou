@@ -42,7 +42,7 @@
         </div>
       </div>
     </div>
-    <div class="content_block ">
+    <div class="content_block">
       <div class="premium container">
         <div class="previev r-0 t-0">
           <h1 class="title">Премиум</h1>
@@ -67,6 +67,35 @@
               card_title_bot='СЗАО'
               card_context_bot='82.5 м2 площадь'
               card_price='от 53 200 000 руб'
+          />
+        </div>
+      </div>
+    </div>
+    <div class="content_block pink">
+      <div class="delux container">
+        <div class="previev l-0 t-0">
+          <h1 class="title">Делюкс</h1>
+          <span class="context">Непревзойденная роскошь с эксклюзивными преимуществами</span>
+        </div>
+        <NavigationsBlockButtonBordered
+            text="Все объекты делюкс"
+        />
+        <div class="card_block">
+          <Card
+              card_image='src/assets/images/delux-images/2.png'
+              card_title='Ильинка 3/8'
+              card_context='7 комнат'
+              card_title_bot='ЦАО'
+              card_context_bot='202.5 м2 площадь'
+              card_price='от 486 490 000 руб'
+          />
+          <Card
+              card_image='src/assets/images/delux-images/1.png'
+              card_title='Чистые Пруды'
+              card_context='6 комнат'
+              card_title_bot='ЦАО'
+              card_context_bot='193.1 м2 площадь'
+              card_price='от 563 800 000 руб'
           />
         </div>
       </div>

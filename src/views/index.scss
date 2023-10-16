@@ -80,3 +80,14 @@
   flex-direction: column;
   align-items: flex-end;
 }
+
+// Делюкс контейнер
+.delux {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .previev {
+    background-color: white;
+  }
+}
