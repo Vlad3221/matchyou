@@ -100,6 +100,23 @@
         </div>
       </div>
     </div>
+    <div class="content_block">
+      <div class="about container">
+        <h1 class="about__title-text text-center">ПРЕМИАЛЬНАЯ Роскошь в Обслуживании</h1>
+        <span class="about__context text-center">Каждая деталь имеет значение</span>
+        <div class="about__information">
+          <div class="about__information-image">
+            <img src="@/assets/images/matchyou.svg" alt="matchyou.svg">
+          </div>
+        </div>
+        <div class="about__title-image">
+          <img src="@/assets/images/about-images/fon.png" alt="">
+        </div>
+        <div class="about__context">
+          <span>Наш подход гарантирует, что каждый аспект вашей покупки будет учтён. От персональных консультаций  и эксклюзивных показов до полного юридического сопровождения — мы с уважением относимся к вашим уникальным потребностям. С нами вы не просто выбираете жильё; вы инвестируете в качество жизни. Соблюдение конфиденциальности и высокий профессионализм делают наш сервис идеальным выбором для тех, кто стремится к исключительности в каждой детали.</span>
+        </div>
+      </div>
+    </div>
   </main>
 </template>
 <script lang="ts" src="./index.ts"></script>
