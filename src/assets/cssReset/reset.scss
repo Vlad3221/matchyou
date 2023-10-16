@@ -145,3 +145,9 @@ template {
 button {
   border: unset;
 }
+
+ul {
+  li {
+    list-style-type: none;
+  }
+}

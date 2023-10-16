@@ -1,0 +1,34 @@
+@import "@/assets/color.scss";
+
+.button_bordered.call-button {
+  padding: 9px 38px;
+  border: 1px solid $button-border;
+  transition: 0.3s;
+
+  &.dark {
+    border: 1px solid #685C56;
+
+    &:hover {
+      background: #685C56;
+    }
+  }
+
+  span {
+    color: $black;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 171.875%;
+    transition: 0.3s;
+    padding-right: 0;
+  }
+
+  &:hover {
+    background: $button-border;
+
+    span {
+      color: $white;
+    }
+  }
+}

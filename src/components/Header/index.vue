@@ -13,13 +13,10 @@
       </div>
       <div class="header__right">
         <div class="header__nav">
-          <div class="header__telephone">
-            <img src="@/assets/icons/icon-telephone.svg" />
-            <span>8 800 300 55 00</span>
-          </div>
-          <div class="header__but button_bordered header-button">
-            <span>Заказать звонок</span>
-          </div>
+          <AboutTelephone/>
+          <RequestACall
+              text="Заказать звонок"
+          />
         </div>
       </div>
     </div>
